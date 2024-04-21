@@ -16,8 +16,9 @@ import java.util.Collection;
 public class Reviews {
     @Id
     public ObjectId id;
-    public String reviewbody;
+    public String reviewBody;
 
-
-
+    public Reviews(String reviewBody) {
+        this.reviewBody = reviewBody;
+    }
 }
